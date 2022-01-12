@@ -34,16 +34,8 @@ ul a:hover{
     cursor: pointer;
     margin-left: 70px;
 }
-.frontImage{
-    width: 100%;
-}
 
 /*Navbar done*/
-
-
-
-
-
 
 .row .texts{
     color: cadetblue;
@@ -52,4 +44,58 @@ ul a:hover{
 .illistratorImage{
     width: 100%;
     margin-top:80px;
+}
+
+.section1{
+    display: none;
+}
+
+.texts2{
+    margin-left: 30px;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+.logo2{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.buttonYt{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: tomato;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.buttonYt:hover{
+    color: rgb(39, 37, 37);
+    font-weight: 600;
+    transition: all .7s ease;
+}
+.buttonYt2{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(69, 118, 233);
+    font-weight: 600;
+    border-radius: 3px;
+}
+.buttonYt2:hover{
+    color: orange;
+    font-weight: 600;
+    transition: all .7s ease;
+}
+/*Navebar responsiveness bottom*/
+
+@media (max-width:900px){
+    ul a{
+        display: none;
+   }
+   .section1{
+    display: contents;
+   }
+   .section2{
+       display: none;
+   }
 }
